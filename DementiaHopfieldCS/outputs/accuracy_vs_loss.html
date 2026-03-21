@@ -1,0 +1,75 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Accuracy vs Neuron Loss</title>
+<style>body{font-family:Segoe UI,Arial,sans-serif;} .axis text{font-size:12px} .title{font-size:18px;font-weight:600;margin:10px 0}</style></head><body>
+<div class='title'>Hopfield Recall Accuracy vs. Progressive Neuron Loss</div>
+<p>Baseline mean accuracy (no loss): 0.990</p>
+<svg width='900' height='450' viewBox='0 0 900 450' xmlns='http://www.w3.org/2000/svg'>
+<line x1='60' y1='390' x2='840' y2='390' stroke='black'/>
+<line x1='60' y1='390' x2='60' y2='60' stroke='black'/>
+<line x1='60' y1='390' x2='60' y2='395' stroke='black'/>
+<text x='60' y='408' text-anchor='middle' class='axis'>0</text>
+<line x1='125' y1='390' x2='125' y2='395' stroke='black'/>
+<text x='125' y='408' text-anchor='middle' class='axis'>5</text>
+<line x1='190' y1='390' x2='190' y2='395' stroke='black'/>
+<text x='190' y='408' text-anchor='middle' class='axis'>10</text>
+<line x1='255' y1='390' x2='255' y2='395' stroke='black'/>
+<text x='255' y='408' text-anchor='middle' class='axis'>15</text>
+<line x1='320' y1='390' x2='320' y2='395' stroke='black'/>
+<text x='320' y='408' text-anchor='middle' class='axis'>20</text>
+<line x1='384.99999999999994' y1='390' x2='384.99999999999994' y2='395' stroke='black'/>
+<text x='384.99999999999994' y='408' text-anchor='middle' class='axis'>25</text>
+<line x1='450' y1='390' x2='450' y2='395' stroke='black'/>
+<text x='450' y='408' text-anchor='middle' class='axis'>30</text>
+<line x1='515' y1='390' x2='515' y2='395' stroke='black'/>
+<text x='515' y='408' text-anchor='middle' class='axis'>35</text>
+<line x1='580' y1='390' x2='580' y2='395' stroke='black'/>
+<text x='580' y='408' text-anchor='middle' class='axis'>40</text>
+<line x1='644.9999999999999' y1='390' x2='644.9999999999999' y2='395' stroke='black'/>
+<text x='644.9999999999999' y='408' text-anchor='middle' class='axis'>45</text>
+<line x1='709.9999999999999' y1='390' x2='709.9999999999999' y2='395' stroke='black'/>
+<text x='709.9999999999999' y='408' text-anchor='middle' class='axis'>50</text>
+<line x1='775' y1='390' x2='775' y2='395' stroke='black'/>
+<text x='775' y='408' text-anchor='middle' class='axis'>55</text>
+<line x1='840' y1='390' x2='840' y2='395' stroke='black'/>
+<text x='840' y='408' text-anchor='middle' class='axis'>60</text>
+<text x='450' y='440' text-anchor='middle'>Neuron loss (%)</text>
+<line x1='55' y1='390' x2='60' y2='390' stroke='black'/>
+<text x='50' y='394' text-anchor='end' class='axis'>0.0</text>
+<line x1='55' y1='357' x2='60' y2='357' stroke='black'/>
+<text x='50' y='361' text-anchor='end' class='axis'>0.1</text>
+<line x1='55' y1='324' x2='60' y2='324' stroke='black'/>
+<text x='50' y='328' text-anchor='end' class='axis'>0.2</text>
+<line x1='55' y1='291' x2='60' y2='291' stroke='black'/>
+<text x='50' y='295' text-anchor='end' class='axis'>0.3</text>
+<line x1='55' y1='258' x2='60' y2='258' stroke='black'/>
+<text x='50' y='262' text-anchor='end' class='axis'>0.4</text>
+<line x1='55' y1='225' x2='60' y2='225' stroke='black'/>
+<text x='50' y='229' text-anchor='end' class='axis'>0.5</text>
+<line x1='55' y1='192' x2='60' y2='192' stroke='black'/>
+<text x='50' y='196' text-anchor='end' class='axis'>0.6</text>
+<line x1='55' y1='159.00000000000003' x2='60' y2='159.00000000000003' stroke='black'/>
+<text x='50' y='163.00000000000003' text-anchor='end' class='axis'>0.7</text>
+<line x1='55' y1='126' x2='60' y2='126' stroke='black'/>
+<text x='50' y='130' text-anchor='end' class='axis'>0.8</text>
+<line x1='55' y1='93.00000000000006' x2='60' y2='93.00000000000006' stroke='black'/>
+<text x='50' y='97.00000000000006' text-anchor='end' class='axis'>0.9</text>
+<line x1='55' y1='60.00000000000006' x2='60' y2='60.00000000000006' stroke='black'/>
+<text x='50' y='64.00000000000006' text-anchor='end' class='axis'>1.0</text>
+<text transform='translate(15 225) rotate(-90)' text-anchor='middle'>Recall accuracy</text>
+<polygon points='60,60 125,60 190,60 255,60 320,60 384.99999999999994,60 450,60 515,60 580,60 644.9999999999999,60 709.9999999999999,60 775,60 840,60 840,126.96789576314455 775,111.21392001459589 709.9999999999999,115.7306371464166 644.9999999999999,112.08600412718283 580,100.78636792964454 515,101.40580138780956 450,101.63169549150285 384.99999999999994,85.17045195510087 320,77.31529713002493 255,81.9664766726616 190,86.27824732897972 125,78.96878703787439 60,72.6308412490049 ' fill='rgba(200,200,200,0.6)' stroke='none' />
+<path d='M60,63.265625 L125,64.38797814207652 L190,66.8908045977011 L255,67.12962962962968 L320,64.96078431372564 L384.99999999999994,68.86111111111114 L450,74.91111111111121 L515,75.01587301587307 L580,74.37719298245622 L644.9999999999999,80.0095238095239 L709.9999999999999,82.22916666666669 L775,80.48275862068965 L840,89.33333333333326 ' fill='none' stroke='#1f77b4' stroke-width='2' />
+<circle cx='60' cy='63.265625' r='3' fill='#1f77b4' />
+<circle cx='125' cy='64.38797814207652' r='3' fill='#1f77b4' />
+<circle cx='190' cy='66.8908045977011' r='3' fill='#1f77b4' />
+<circle cx='255' cy='67.12962962962968' r='3' fill='#1f77b4' />
+<circle cx='320' cy='64.96078431372564' r='3' fill='#1f77b4' />
+<circle cx='384.99999999999994' cy='68.86111111111114' r='3' fill='#1f77b4' />
+<circle cx='450' cy='74.91111111111121' r='3' fill='#1f77b4' />
+<circle cx='515' cy='75.01587301587307' r='3' fill='#1f77b4' />
+<circle cx='580' cy='74.37719298245622' r='3' fill='#1f77b4' />
+<circle cx='644.9999999999999' cy='80.0095238095239' r='3' fill='#1f77b4' />
+<circle cx='709.9999999999999' cy='82.22916666666669' r='3' fill='#1f77b4' />
+<circle cx='775' cy='80.48275862068965' r='3' fill='#1f77b4' />
+<circle cx='840' cy='89.33333333333326' r='3' fill='#1f77b4' />
+</svg>
+<p>This curve summarizes how recall degrades as progressively more neurons are removed; the gray band indicates ±1 standard deviation over random lesions and cues.</p>
+</body></html>
